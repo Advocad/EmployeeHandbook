@@ -1,8 +1,10 @@
 import React from 'react';
 
+import styles from './styles.module.scss';
+
 const CardUser = () => {
   return (
-    <div className="App">
+    <div className={styles.container}>
      123
     </div>
   );
